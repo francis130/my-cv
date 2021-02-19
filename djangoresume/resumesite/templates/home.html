@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-tops">
+    <div class="container">
+
+      <h1><a href="{% url 'home' %}">Francis M Banda</a></h1>
+      <h2>I'm a passionate <span>Software Engineer</span> from Lusaka Zambia</h2>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="{% url 'home' %}">Home</a></li>
+          <li><a href="{% url 'about' %}">About</a></li>
+          <li><a href="{% url 'resume' %}">Resume</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+      <div class="social-links">
+        <a href="https://www.researchgate.net/profile/Francis_Banda5" class="book"> <i class="icofont-book"></i></a>
+        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/francis-banda-b2956014a" class="linkedin"><i class="icofont-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  {% endblock content %}
+

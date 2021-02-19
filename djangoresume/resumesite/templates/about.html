@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+
+   <!-- ======= About Section ======= id="about" class="about"-->
+   <section>
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+      <div class="container">
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="{% url 'home' %}">Home</a></li>
+          <li><a href="{% url 'about' %}">About</a></li>
+          <li><a href="{% url 'resume' %}">Resume</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+      </div>
+      <div class="section-title">
+        <h2>About</h2>
+        <p>Learn more about me</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="{% static 'img/me.jpg' %}" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Personal attributes &amp; Beliefs</h3>
+          <p class="font-italic">
+            “Life’s most persistent and urgent question is, ‘What are you doing for others?’”
+            Martin Luther King Jr., civil rights activist and clergyman.
+         
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 26 May 1994</li>
+                <!--li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.example.com</li-->
+                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +260978206075</li>
+                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Lusaka, Zambia</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available for Employement</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 26</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Master's Degree scholar <small> Computer Science & Technology</small></li>
+                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> bandafrancismicheal8@gmail.com</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available for Employement</li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            I am a Christian, born and vested in the faith of Jesus Christ. my beliefs, character, and personality are guided by the fundamental commandments of Christianity i.e: " Love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.’ The second is this: ‘Love your neighbour as yourself. ‘There is no commandment greater than these.” Mark 12:30-31. This bible passage has challenged me over the years to seek social justice for all people regardless of race, gender, age, tribe, religion or indeed those with opposing opinions. I have taken up this task by bringing together a few youths in an informal group called brothers keepers where the 10 of us try to support each other as we go through everyday challenges. My hope is that we shall all live in a fair, equal opportunity and just world. My pursuit for this vocation has also influenced my academic journey because it is the inspiration for my research for my master's degree.
+          </p>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+
+
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">HTML <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">CSS <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Python <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">C# <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">JavaScript <i class="val">50%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">SQL <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div><!-- End Skills -->
+
+
+
+  </section><!-- End About Section -->
+
+  {% endblock content %}

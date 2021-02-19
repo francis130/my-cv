@@ -1,0 +1,210 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<!-- ======= Resume Section ======= -->
+<section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <div class="container">
+        <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li><a href="{% url 'home' %}">Home</a></li>
+              <li><a href="{% url 'about' %}">About</a></li>
+              <li><a href="{% url 'resume' %}">Resume</a></li>
+            </ul>
+          </nav><!-- .nav-menu -->
+        </div>
+        <h2>Resume</h2>
+        <p>Check My Resume</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Summary</h3>
+          <div class="resume-item pb-0">
+            <h4>Francis M Banda</h4>
+            <p><em>Passionate, innovative and solution driven software developer with 2 years experience in designing and developing user centered solutions. </em></p>
+            <p>
+            <ul>
+              <li>plot number 34307 off Shantumbu RD, Rockfield Chalala, Lusaka, Zambia</li>
+              <li>(+26) 0978206075</li>
+              <li>bandafrancismicheal8@gmail.com</li>
+            </ul>
+            </p>
+          </div>
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>Master of Computer Science &amp; Technology *</h4>
+            <h5>START SEPTEMBER 2019 – FINISH JANUARY 2022*</h5>
+            <p><em>ZHEJIANG GONGSHANG UNIVERSITY, CHINA. </em></p>
+            <p>
+              Am a master’s scholar at Zhejiang Gongshang University, China.  The program is in two parts, taught and research, as of today, I have finished the taught part of my study and am currently doing the research part. 
+I was nominated as one of the students to compete for best students at Zhejiang Gongshang University come 2022 and I intend to scoop the top spot. Below is a copy of my academic results.
+
+            </p>
+            <img src="{% static 'img/re.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="resume-item">
+            <h4>BACHELORS DEGREE IN COMPUTER SCIENCE (SOFTWARE ENGINEERING)</h4>
+            <h5>DECEMBER 2017</h5>
+            <p><em>THE UNIVERSITY OF ZAMBIA.</em></p>
+            <p>
+              I hold a bachelor’s degree from the university of Zambia. My degree in computer science and technology covers all areas concerning computer engineering, networking, software development, database management, algorithm development, project management, IT help desk, cyber security and operating system management. This degree program equipped me with the necessary knowledge of computing. As part of the university strategy to produce graduates that are industry ready, I enrolled and attained professional certificates offered by the department of computer science. These certificates include;
+              <ul>
+                <li>	IT ESSENTIALS Certificate</li>
+                <li>CCNA Certificate</li>
+                <li>	ERP Certificate</li>
+
+            </ul>
+              I graduated from the University with a credit.
+              
+            </p>
+          </div>
+
+          <div class="resume-item">
+            <h4>O LEVEL GRADE 12 CERTIFICATE</h4>
+            <h5>NOVEMBER 2011</h5>
+            <p><em>KAFUE BOYS’ SECONDARY SCHOOL</em></p>
+            <p>
+              I did my secondary school at a very strict United Church of Zambia MISSION school called Kafue Boys’ Secondary School. At the time of completion, I was the vice house captain for my dorm cohort called Livingstone house.  Being in boarding school exposed me to a lot of life lessons that have shaped my character today. Even as I was learning about social life, my academic life remained important to me and I managed to complete my secondary school and a complete certificate. <ul>
+
+            </ul>
+              I graduated from the University with a credit.
+              
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h4>IT UNIT INTERN/OFFICER</h4>
+            <h5>DATES FROM 7TH AUGUST 2018 – 8TH FEBRUARY 2019</h5>
+            <p><em>THE HIGHER EDUCATION LOANS & SCHOLARSHIPS BOARD </em></p>
+            <p>
+            <ul>
+              <li>
+                <u>Write scripts to automate tasks extraction of beneficiaries</u>
+                <br>
+                <small>
+                My first task at the HELSB was to extract data from for excel from the year 2004 to 2018, clean the data and compile the data into one document that was later used as a database for student loan recovery. This task was tedious task, therefore to optimize the task, the team came up with database scripts
+              </small>
+             </li>
+              <li>
+                <u> Requirements and Specification documentation The Higher Education Students Financing Management Project</u>
+                <br>
+                <small>
+                The Board had a project of developing a system to better manage client service delivery and accountability. Therefore, they needed a technical team to come up with a requirements specification document. This called for gathering of requirements, brainstorming and strategizing how the sequence of processes will be documented
+              </small>
+             </li>
+
+              <li><u> Exhibit the products of The Higher Education Loans and Scholarships Board</u>
+                <br>
+                <small>
+                  	The higher education loans and scholarships board exists as a result of an act of parliament that aims to educate all citizens of Zambia to attain higher education. Therefore, one of the tasks I was assigned to do was to exhibit the products and services online, at expos and public events
+                </small> 
+              </li>
+
+              <li><u>Registering students, adhoc and attending to various queries from clients including recoveries and omissions</u>
+                <br><small>	The higher Education loans and scholarships board as a growing board required versatile individuals to be able to help with processes such as student registration, attending to various queries and other adhoc issues with undocumented solutions </small> 
+              </li>
+
+
+              <li><u>Data Entry, Data Management, Data querying and Data Visualization and presentation</u>
+                <br>
+                <small>	The process of loan and scholarship awarding required data entry, data cleaning and sorting and it also required data scoring and analysis. Most importantly, data had to be presented or made available at all times upon demand. </small> 
+              </li>
+
+
+              <li>
+                <u>USSD and in-house Software development </u>
+                <br>
+                <small>	* The board needed a way to have clients verify and check details in an optimized, secure and efficient method. I proposed a USSD application and I was given the task of developing and deploying a test USSD application. The development of the application was implemented in PHP, used JSON menu and was deployed on a private server for test purposes as the board went through the process of acquiring a shot code. </small> 
+                <br>
+                <small> * The board needed some agent quick software solutions to help with the student loan repayment organisation process, therefore, there was need to develop software solutions such as a website and loan amortization software</small>
+              </li>
+
+
+              </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>DATA UNIT INTERN</h4>
+            <h5>DATES FROM 28TH JANUARY 2019– TO 28TH JULY 2019</h5>
+            <p><em>CENTRE FOR INFECTIOUS DISEASE & RESEARCH ZAMBIA (CIDRZ) </em></p>
+            <p>
+            <ul>
+              <li>
+                <u>Develop and implement software solutions</u>
+                <br>
+                <small>
+                  CIDRZ collects data and uses it for decision making and implementation. All along they used a desktop application to do the data collection. My first task as an intern there was to come up with a web-based application that does the data collection and further analyze the data according to PEPFAR guidelines. I used the .NET entity framework, LINQ queries to manipulate the MySQL database, bootstrap for the front end, and IIS for hosting
+                </small> 
+                
+              </li>
+
+              <li>
+                <u>Maintain and improve the performance of existing software</u>
+                <br>
+                <small>
+                  The legacy system that CIDRZ was using was not free of bugs and needed maintenance. I was given the source code and the responsibility to make changes according to the requirements.
+                </small> 
+                
+              </li>
+
+
+              <li>
+                <u>Clear and regular communication with management and technical team.</u>
+                <br>
+                <small>
+                	All tasks and assignment where clearly documented. regularly, I was required to constantly report on all the activities. when working on the assignments, I was required to communicate and update the technical team on all developments and challenges.
+                </small> 
+                
+              </li>
+            
+              <li>
+                <u>Test and maintain software products to ensure strong functionality and optimization</u>
+                <br>
+                <small>
+                	Software testing of systems developed where meant to recognize any possible errors or design mistakes. the strategy was to stress the system, possibly break the system and make changes that optimize performance and recovery in case of the system failure.
+                </small> 
+                
+              </li>
+
+              <li>
+                <u>Deployment of the system and user support</u>
+                <br>
+                <small>
+                	When the system was cleared for deployment, the deployment strategy was a distributed database method. This meant that the database had to be locally hosted in the facility and the data was then sent to the main database at HQ when network was available.
+                </small> 
+                
+              </li>
+
+              <li>
+                <u>Open Data Kit (ODK) Development, Data Collection and Analysis</u>
+                <br>
+                <small>
+                  I was assigned with the task of developing a data collection kit that allowed users to carry out surveys collect responses and analyze the data.
+                 	This task used an XML form generated from an excel sheet to create a sequence flow of the questions and a server side that was locally hosted to analyze, pivot, and extract the results
+                </small> 
+                <br>
+                <small>
+                  This task used an XML form generated from an excel sheet to create a sequence flow of the questions and a server side that was locally hosted to analyze, pivot, and extract the results
+                
+                </small>
+                
+              </li>
+
+
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+  {% endblock content %}
